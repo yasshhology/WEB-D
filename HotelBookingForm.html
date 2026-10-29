@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Form</title>
+</head>
+<body>
+
+    <form style="border:5px solid #000; width:400px; margin:0 auto;">
+        
+        <h2 style="text-align:center;">Hotel Room Booking Form</h2>
+        
+        <table align="center">
+            <tr><td>Full Name:</td>
+                <td><input type="text"></td></tr>
+            <tr><td>Email:</td>
+                <td><input type="email"></td></tr>
+            <tr><td>Phone:</td>
+                <td><input type="tel"></td></tr>
+            <tr><td>Check-in Date:</td>
+                <td><input type="date"></td></tr>
+            <tr><td>Check-out Date:</td>
+                <td><input type="date"></td></tr>
+            <tr><td>Room Type:</td>
+                <td>
+                <select><option>Single Room</option>
+                        <option>Double Room</option>
+                </select>
+            </td></tr>
+            <tr><td>Number of Guests:</td>
+                <td><input type="number" min="1"></td></tr>
+        </table>
+        
+<p style="text-align:center;">
+    Special Requests:
+    <textarea style="width:80%; height:80px;"></textarea>
+    <button type="submit">Book Now</button>
+    <button type="reset">Reset Form</button>
+</p>
+
+</form>
+
+</body>
+
+</html>
